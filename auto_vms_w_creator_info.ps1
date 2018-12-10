@@ -1,6 +1,6 @@
 $createdByLabel = "CreatedBy";
 $eventsstarttime = (Get-Date).AddDays(-89);
-$azureCredential = Get-AutomationPSCredential -Name "vmtagtest"
+$azureCredential = Get-AutomationPSCredential -Name " THE ACCOUNT NAME "
 
 if($azureCredential -ne $null)
 {
